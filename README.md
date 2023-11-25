@@ -1,29 +1,18 @@
-# Animations In CSS
+# Black Smoke
 
-Repository for animations created in css
+Branch for Black Smoke animation
 
-- [Clouds And Stars](#clouds-and-stars)
-  - [Description](#description)
-  - [Mistakes](#mistakes)
-- [Black Smoke](#black-smoke)
-  - [Description](#description)
-  - [Mistakes](#mistakes)
+- [Description](#description)
+- [Mistakes](#mistakes)
 - [Future](#future)
 - [License](#license)
 
-## Clouds And Stars
-  ### [Description]
-  Realistic cloud and stars movement created using CSS and HTML.
+
+## [Description]
+Black smoke in a triangle on a webpage. This animation is intended for use as a background on one of the subpages in the PsychoAMJ frontend.
     
-  ### [Mistakes]
-  I used many `<span>` elements. You can reduce them and adjust the `margin` value. Decreasing the number of `<span>` elements will result in fewer stars.
-    
-## Black Smoke
-  ### [Description]
-  Black smoke in triangle on page. 
-    
-  ### Mistakes
-  The current animation doesn't maintain a clear loop; instead, it abruptly changes direction, resulting in a noticeable transition for the user. Achieving a smooth and continuous loop for the smoke animation is a challenge that requires further refinement.
+## Mistakes
+The current animation doesn't maintain a clear loop; instead, it abruptly changes direction, resulting in a noticeable transition for the user. Achieving a smooth and continuous loop for the smoke animation is a challenge that requires further refinement.
 
 ## Future
 This repository is a work in progress. More animations will be added in the future, and existing animations will be refined.
