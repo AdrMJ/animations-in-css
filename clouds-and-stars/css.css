@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.cloud{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url(cloud.png);
+   animation: animateCloud 35s linear infinite;
+   filter: opacity(0.5) drop-shadow(0 0 #3D3D3D);
+   z-index: 1;
+}
+
+@keyframes animateCloud{
+    0%{
+        background-position: 0 5400px;
+    }
+    100%{
+        background-position: 0 0;
+    }
+
+}
+.particles{
+    position: relative;
+    display: flex;
+    z-index: 2;
+    padding: 0 20px;
+}
+.particles span{
+    position: relative;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+    background: white;
+    margin: 0 1;
+    border-radius: 50%;
+    animation: animateSky 15s ease-out infinite;
+    animation-duration: calc(800s / var(--i));
+}
+.particles span:nth-child(even)
+{
+    background: white;
+}
+@keyframes animateSky{
+    0%{
+        transform: translateY(120vh) scale(0.1) rotate(90deg);
+    }
+    40%{
+        transform: translateY(120vh) scale(0.1) rotate(0deg);
+    }
+    
+    100%{
+        transform: translateY(-50vh) scale(0.1) rotate(360deg);
+    }
+}
