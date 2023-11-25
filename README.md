@@ -8,7 +8,7 @@ Branch for Black Smoke animation
 - [License](#license)
 
 
-## [Description]
+## Description
 Black smoke in a triangle on a webpage. This animation is intended for use as a background on one of the subpages in the PsychoAMJ frontend.
     
 ## Mistakes
