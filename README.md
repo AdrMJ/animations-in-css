@@ -7,10 +7,10 @@ Branch for Clouds And Stars animation
 - [Future](#future)
 - [License](#license)
 
-## [Description]
+## Description
 Realistic cloud and stars movement created using CSS and HTML. This animation is intended for use as a menu's background on one of the subpages in the PsychoAMJ frontend.
     
-## [Mistakes]
+## Mistakes
 I used many `<span>` elements. You can reduce them and adjust the `margin` value. Decreasing the number of `<span>` elements will result in fewer stars.
     
 ## Future
