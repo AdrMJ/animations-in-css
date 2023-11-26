@@ -12,14 +12,14 @@ Repository for animations created in css
 - [License](#license)
 
 ## Clouds And Stars
-  ### [Description]
+  ### Description
   Realistic cloud and stars movement created using CSS and HTML.
     
-  ### [Mistakes]
+  ### Mistakes
   I used many `<span>` elements. You can reduce them and adjust the `margin` value. Decreasing the number of `<span>` elements will result in fewer stars.
     
 ## Black Smoke
-  ### [Description]
+  ### Description
   Black smoke in triangle on page. 
     
   ### Mistakes
