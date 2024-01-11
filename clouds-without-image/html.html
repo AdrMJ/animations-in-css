@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <div class="line" id="first"></div>
+        <div class="line" id="second"></div>
+        <svg>
+            <filter id="wavy">
+                <feTurbulence x="0" y="0" baseFrequency="0.05" type="fractalNoise" numOctaves="500" seed="1">
+                    <animate attributeName="baseFrequency" dur="10" values="0.009; 0.015;" repeatCount="indefinite"/>
+                </feTurbulence>
+                <feDisplacementMap in="SourceGraphic" scale="200"/>
+            </filter>
+        </svg>
+    </body>
+</html>
