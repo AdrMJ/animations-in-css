@@ -16,7 +16,7 @@ Repository for animations created in css
 ## Future
 This repository is a work in progress. More animations will be added in the future, and existing animations will be refined.
 
-# How To Use It
+## How To Use It
 
 To insert this animation, you need to copy the code from the `<body>` element and CSS, and then paste it into your project.
 
