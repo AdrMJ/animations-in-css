@@ -1,0 +1,21 @@
+body {
+    background: black;
+  }
+  .line {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    background-color: white;
+    position: fixed;
+    top: -95%;
+    left: -10%;
+    width: 150%;
+    height: 150%;
+    filter: url(#wavy);
+            transform: rotate(26deg);
+            box-shadow: inset -100px -30px 20px black;
+
+  }
+  svg{
+    height: 0;
+    width: 0;
+  }
