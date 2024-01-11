@@ -23,7 +23,7 @@ Repository for animations created in css
 ### Description
   White smoke in triangle on page with a fading and reappearing effect.
 
-##Colorful Smoke
+## Colorful Smoke
 
 ### Description
   Colorful smoke animation (inspired by the book 'Okiem młodego poety' by Adrian Jasek) with a fading and reappearing effect.
